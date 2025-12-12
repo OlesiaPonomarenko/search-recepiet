@@ -135,5 +135,8 @@ a {
     .food {
         width: 90%;
     }
+    .photo {
+        width: 300px;
+    }
 }
 
