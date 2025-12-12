@@ -126,5 +126,14 @@ a {
     .gallery {
         grid-template-columns: 1fr;
     }
+    .text {
+        font-size: 25px;
+    }
+    .joke {
+        width: 90%;
+    }
+    .food {
+        width: 90%;
+    }
 }
 
