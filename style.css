@@ -1,0 +1,130 @@
+body {
+    font-family: "Dancing Script", cursive;
+    background-color: #FF9021;
+}
+
+video {
+    width: 100%;
+    border: 1px solid #4D463F;
+    border-radius: 8px;
+} 
+
+.video:hover {
+    box-shadow: 10px 5px 5px #778880;
+    transition-property: box-shadow;
+    transition-duration: .5s, .5s;
+}
+
+.heading  {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 65px;
+    background: linear-gradient(to left, #21271A, #4D463F, #F51316,  #F9646B);
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+}
+
+.inputField {
+    display: flex;
+}
+
+.input {
+    flex:1;
+    padding: 10px;
+    background-color: #778880;
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    font-size: 35px;
+    background: linear-gradient(to left, #21271A, #4D463F, #F51316,  #F9646B);
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+   text-align: center;
+}
+
+.food  {
+    width: 50%;;
+    background: #778880;
+    margin: 10px;
+}
+
+.joke {
+    width: 50%;;
+    background: #778880;
+    margin: 10px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 10px; 
+}
+
+.imgItem {
+    position: relative;
+}
+
+ img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  display: block;
+  border-radius: 8px; 
+}
+
+p {
+    font-size: 35px;
+    position: absolute;
+    background: linear-gradient(to left, #FF9021, #4D463F, #F51316,  #F9646B);
+    border: solid 1px #4D463F;
+    border-radius: 10px;
+    top: 10px;  
+    left: 10px; 
+}
+
+a {
+    text-decoration: none;
+    color: #21271A;
+}
+
+.divJoke {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    flex: 1;
+    padding: 10px;
+    font-family: "Dancing Script", cursive;
+    font-size: 25px;
+    background-color: #FF9021;
+    border-radius: 10px;
+}
+
+.photo {
+    height: 100hw;
+}
+
+@media all and (max-width: 500px) {
+    img {
+        width: 300px;
+        height: 400px;
+    }
+    .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+}
+
