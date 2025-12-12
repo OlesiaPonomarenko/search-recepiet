@@ -14,7 +14,7 @@ input.addEventListener('keyup', (event) => {
 
 const back = document.querySelector('.back');
 const next = document.querySelector('.next');
-const photos = ['./img/11.jpg',  '/img/44.jpg', './img/55.jpg', './img/66.jpg', './img/88.jpg']
+const photos = ['./img/11.jpg',  './img/44.jpg', './img/55.jpg', './img/66.jpg', './img/88.jpg']
 
 let i = 0;
 
