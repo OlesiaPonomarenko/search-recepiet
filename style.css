@@ -110,15 +110,10 @@ a {
     border-radius: 10px;
 }
 
-.photo {
-    height: 100hw;
-}
 
 @media all and (max-width: 500px) {
     img {
-        width: 300px;
         height: 400px;
-        align-self:center;
     }
     .container {
         flex-direction: column;
@@ -126,6 +121,7 @@ a {
     }
     .gallery {
         grid-template-columns: 1fr;
+        place-items: center;
     }
     .text {
         font-size: 25px;
@@ -138,6 +134,12 @@ a {
     }
     .photo {
         width: 300px;
+        align-self: center;
+    }
+    p {
+        font-size: 25px;
+        top: 5px;
+        left: 5px;
     }
 }
 
