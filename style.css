@@ -118,6 +118,7 @@ a {
     img {
         width: 300px;
         height: 400px;
+        align-self:center;
     }
     .container {
         flex-direction: column;
